@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>jQuery練習</title>
+    <!-- ↓↓ 読み込んでいる -->
+    <script src="./js/jquery-3.5.1.min.js"></script>
+</head>
+<body>
+    <h1 id="echo"></h1>
+<script>
+
+// id に対する指定は # で記入
+// どこに対して . 何をする
+// JaveScriptで同じ処理を書くと↓↓
+// document.querySelector("#echo").innerHTML="文字列"
+$("#echo").text("こんにちは");
+$("#echo").fadeOut();
+
+</script>
+</body>
+</html>
